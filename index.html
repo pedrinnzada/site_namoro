@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EU TE AMO CAROL 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Tela inicial -->
+  <div id="tela-inicial">
+    <h1>
+      <button id="botaoClick">Click ❤️</button>
+      <br><br>
+      De: Pedro
+      <br>
+      Para: Carol
+      <br>
+      
+    
+    </h1>
+  </div>
+
+  <!-- Conteúdo principal (inicia oculto) -->
+  <div id="conteudo" style="display: none;">
+    
+    <!-- Corações flutuantes -->
+    <div class="hearts-container"></div>
+
+    <!-- Player estilo Spotify -->
+    <div class="player-spotify">
+      <img id="cover" src="fotos/capa.jpg" alt="Capa" />
+      
+      <div class="info-musica">
+        <h3>Aliança</h3>
+        <p>Tribalistas</p>
+      </div>
+
+      <div class="barra">
+        <span id="tempoAtual">00:00</span>
+        <input type="range" id="progress" value="0" />
+        <span id="duracao">00:00</span>
+      </div>
+
+      <button id="playPause">▶️</button>
+
+      <audio id="music">
+        <source src="musicas/tribalistas.mp3" type="audio/mp3" />
+      </audio>
+    </div>
+
+    <!-- Conteúdo visual -->
+    <div class="container">
+      <h1>Feliz Nosso Dia Meu Amor!!</h1>
+      <p id="contador"></p>
+      
+      <div class="slideshow">
+        <img id="foto" src="fotos/foto1.jpg" />
+      </div>
+      <br>
+      <hr>
+      <p class="mensagem">
+        Eu quero te agradecer por tudo e por tanto, você foi a melhor coisa que aconteceu na minha vida, você sempre vai ser e será meu porto seguro, você é minha paz e minha alegria, eu te amo mais do que ontem e menos do que amanhã. ❤️
+      </p>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
